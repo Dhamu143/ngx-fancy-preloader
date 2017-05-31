@@ -38,16 +38,16 @@ Use in template like below
  <fancy-preloader [loading]="loading" [type]="type"></fancy-preloader>
 ```
 
-Where loading  is the boolean variable - set visible(true) or hidden(false) for loader.
-Where type  is the string variable - set type for loader:
-....................................................
-export const EVIL_NORMAL             = 'EvilNormal';
-export const CIRCLE_SIMPLE           = 'CircleSimple';
-export const CANVAS_SNAKE            = 'CanvasSnake';
-export const THREE_DOTS_LINE_ACTION  = 'ThreeDotsLineAction';
-export const CIRCLE_DOT              = 'CircleDot';
-export const CLOCK                   = 'Clock';
-export const LOADING_WHOLE_LINE_WISE = 'LoadingWholeLineWise';
+Where loading  is the boolean variable - set visible(true) or hidden(false) for loader.<br>
+Where type  is the string variable - set type for loader:<br>
+....................................................<br>
+export const EVIL_NORMAL             = 'EvilNormal';<br>
+export const CIRCLE_SIMPLE           = 'CircleSimple';<br>
+export const CANVAS_SNAKE            = 'CanvasSnake';<br>
+export const THREE_DOTS_LINE_ACTION  = 'ThreeDotsLineAction';<br>
+export const CIRCLE_DOT              = 'CircleDot';<br>
+export const CLOCK                   = 'Clock';<br>
+export const LOADING_WHOLE_LINE_WISE = 'LoadingWholeLineWise';<br>
 ..............................................................
 
 
