@@ -1,0 +1,16 @@
+
+
+canvas {
+    display: block;
+}
+.box {
+    background: rgba(0,0,0, 0.3);
+    position: absolute;
+    width: 70vw;
+    left: 30vw;;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

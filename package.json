@@ -1,0 +1,45 @@
+{
+  "name": "ngx-fancy-preloader",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneia/ngx-fancy-preloader.git"
+  },
+  "keywords": [
+    "angular2",
+    "preoloader",
+    "loader",
+    "angular",
+    "ngx-loader"
+  ],
+  "author": "oneia",
+  "bugs": {
+    "url": "https://github.com/oneia/ngx-fancy-preloader/issues"
+  },
+  "dependencies": {
+    "@angular/common": "^4.1.3",
+    "@angular/compiler": "^4.1.3",
+    "@angular/core": "^4.1.3",
+    "@angular/platform-browser": "^4.1.3",
+    "@angular/platform-browser-dynamic": "^4.1.3",
+    "@angular/router": "^4.1.3",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@types/node": "~6.0.60",
+    "ts-node": "~2.0.0",
+    "tslint": "~4.5.0",
+    "typescript": "~2.2.0"
+  },
+  "homepage": "https://github.com/oneia/ngx-fancy-preloader#readme"
+}

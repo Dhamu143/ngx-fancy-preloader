@@ -1,0 +1,23 @@
+<div class="c-fancy-preloader">
+  <ng-container *ngIf="loading">
+    <ng-container [ngSwitch]="type">
+
+      <app-circle-dot *ngSwitchCase="loaderType.CIRCLE_DOT"></app-circle-dot>
+
+      <app-circle-simple *ngSwitchCase="loaderType.CIRCLE_SIMPLE"></app-circle-simple>
+
+      <app-clock *ngSwitchCase="loaderType.CLOCK"></app-clock>
+
+      <app-three-dots-line-action *ngSwitchCase="loaderType.THREE_DOTS_LINE_ACTION"></app-three-dots-line-action>
+
+      <app-loading-whole-line-wise *ngSwitchCase="loaderType.LOADING_WHOLE_LINE_WISE"></app-loading-whole-line-wise>
+
+
+      <app-evil-loader-normal *ngSwitchCase="loaderType.EVIL_NORMAL"></app-evil-loader-normal>
+
+      <app-canvas-snake *ngSwitchCase="loaderType.CANVAS_SNAKE"></app-canvas-snake>
+
+      <!--<some-element *ngSwitchDefault></some-element>-->
+    </ng-container>
+  </ng-container>
+</div>
